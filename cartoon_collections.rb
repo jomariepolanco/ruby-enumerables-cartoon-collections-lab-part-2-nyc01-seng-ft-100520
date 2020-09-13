@@ -27,7 +27,7 @@ def find_valid_calls(planeteer_calls)
   i = 0 
   while i < valid_calls.length do 
     planeteer_calls.find do |calls|
-      calls == valid_calls 
+      calls == valid_calls[i] 
     end 
     i += 1 
   end 
